@@ -88,7 +88,7 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
+    [https://github.com/pityasteaghes04/SolarAnywhere.git](https://github.com/pityasteaghes04/SolarAnywhere.git)
     ```
     
 2.  **Install dependencies:**
