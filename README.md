@@ -54,7 +54,7 @@ The 2026 update transforms the project from a theoretical model into a functiona
 ## Project Visualizations
 
 ### Solar Charging Efficiency Heatmap
-![Charging Efficiency Heatmap](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/charging-efficiency-heatmap.png)
+![Charging Efficiency Heatmap](./images/charging-efficiency-heatmap.png)
 *Evaluating full charging capability across multi-panel configurations and device battery capacities.*
 
 ### 365-Day Solar Radiation Trend
