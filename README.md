@@ -53,6 +53,10 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ## Project Visualizations
 
+### Solar Charging Efficiency Heatmap
+![Charging Efficiency Heatmap](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/charging-efficiency-heatmap.png)
+*Evaluating full charging capability across multi-panel configurations and device battery capacities.*
+
 ### 365-Day Solar Radiation Trend
 ![Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/liveAPI-data.png)
 *Demonstrating system precision using location-specific landmarks.*
@@ -71,7 +75,7 @@ The 2026 update transforms the project from a theoretical model into a functiona
 ---
 
 ## Technical Skills Demonstrated
-* **Python Engineering:** Pandas, NumPy, Matplotlib, Geopy, REST API integration.
+* **Python Engineering:** Pandas, NumPy, Matplotlib, Geopy, Seaborn, REST API integration.
 * **Statistical Modeling:**
     * **ICDF Curves:** Probability modeling for energy sufficiency.
     * **Outlier Analysis:** Identifying seasonal variances using Box-and-Whisker plots.
