@@ -96,5 +96,5 @@ The 2026 update transforms the project from a theoretical model into a functiona
     pip install -r requirements.txt
     ``` 
                                     
-3.  **Execution:** Open `SolarAnywhere_PityasT.ipynb` in VS Code or any Jupyter environment.
+3.  **Execution:** Open `solar-anywhere-pityast.ipynb` in VS Code or any Jupyter environment.
 4.  **API Access:** Press **Enter** at the prompt to use the built-in demo fallback key.
