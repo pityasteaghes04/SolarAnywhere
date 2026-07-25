@@ -47,30 +47,66 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 <div align="center">
 
-## Project Visualizations
+<div align="center">
+
+# SolarAnywhere: Global Solar Calculation Tool
 
 </div>
 
-### Solar Charging Efficiency Heatmap
+## Abstract
+SolarAnywhere is a high-precision, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Built on a powerful integration of the **Google Maps API** and **Visual Crossing API**, the system features a seamless location engine that resolves any point on Earth—from entire cities to specific landmarks. 
 
-![Charging Efficiency Heatmap](./images/charging-efficiency-heatmap.png)
+To demonstrate its power, the tool can pivot from a broad search like "Seattle, WA" to a high-precision target like the **Space Needle**, fetching hyper-local irradiance data instantly. SolarAnywhere provides reliable, data-driven insights to help users design solar setups that meet their specific daily needs regardless of their environment.
 
-*Evaluating full charging capability across multi-panel configurations and device battery capacities.*
+## Project Overview
+The 2026 update transforms the project from a theoretical model into a functional smart tool. By analyzing how solar panel energy output varies by location and device battery capacity, we translate complex solar radiation metrics into practical, consumer-facing insights.
 
-### 365-Day Solar Radiation Trend
+### 2026 Core Features
+* **Smart Search:** Seamlessly resolves locations and landmarks by name (e.g., Space Needle) for instant, hyper-local data.
+* **Global Precision:** Integrated 365 days of live weather data to calculate exact solar needs anywhere on Earth.
+* **Smart Planning:** Uses predictive modeling to forecast battery success rates in varied climate profiles.
+* **Stress Testing:** Rigorously verified for all-weather reliability across extreme irradiance variances.
+* **System Resilience:** Engineered with fallback logic to ensure reliable hardware efficiency insights.
 
-![Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/live-api-data.png)
-*Demonstrating system precision using location-specific landmarks.*
+<div align="center">
 
-### Reliability Analysis: ICDF Curve
+### Project Presentation (2024-2025)
+**Detailed Varied Regions Analysis:** [View SolarAnywhere Presentation (PDF)](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
 
-![ICDF Curve](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/idf-curve.png)
+</div>
 
-### Distribution of Solar Panels Needed
+## Hardware Specifications
+* **Location Engine:** Google Maps Geocoding API.
+* **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/).
+* **Battery Profiles:** Technical data for modern mobile devices measured in Watt-hours (Wh).
+
+### Hardware Specification Mapping
+*Calculated at 3.85V nominal voltage.*
+
+| Device Model | Capacity (mAh) | Energy (Wh) | Profile Type |
+| :--- | :---: | :---: | :--- |
+| **OnePlus 13** | 6000 | 23.10 | High-Density |
+| **Google Pixel 10 Pro XL** | 5200 | 20.02 | Large Flagship |
+| **Samsung Galaxy S25 Ultra** | 5000 | 19.25 | Ultra-Premium |
+| **iPhone 16 Pro Max** | 4685 | 18.04 | Baseline |
+| **iPhone 16 Pro** | 3582 | 13.79 | Standard Pro |
+| **iPhone 16** | 3561 | 13.71 | Standard |
+
+> **User Guide:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and use the formula: $Wh = (mAh \times 3.85) / 1000$
+
+<div align="center">
+
+## Project Visualizations
+
+### Overall Panel Distribution & Outliers Across Device Models
+*Highlights the distribution of solar panels required to charge each device fully, including extreme weather anomalies and high-irradiance outliers.*
 
 ![Panel Distribution](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-1-requirement-model.png)
 
-### Hardware Requirements by Phone Model
+<br />
+
+### Standard Hardware Requirements Range by Phone Model
+*Presents the core 0.0 to 3.5 panel requirement range under normal conditions, making it easy to compare average daily hardware needs across flagship devices.*
 
 ![Requirement Boxplot](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-2-requirement-model.png)
 
