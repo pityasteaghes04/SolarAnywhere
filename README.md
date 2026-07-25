@@ -61,6 +61,20 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ![Requirement Boxplot](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-2-requirement-model.png)
 
+<br />
+
+### Daily Solar Irradiance Profile (Space Needle)
+*Tracks real-time solar radiation variance ($\text{W/m}^2$) over a full year, demonstrating seasonal energy availability shifts from winter lows to summer peaks.*
+
+![Daily Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/live-api-data.png)
+
+<br />
+
+### Solar Reliability Analysis: ICDF Curve (Space Needle)
+*Illustrates the cumulative probability of achieving a full daily charge relative to the number of solar panels deployed across different smartphone battery profiles.*
+
+![Solar Reliability ICDF](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/icdf-curve.png)
+
 </div>
 
 ---
