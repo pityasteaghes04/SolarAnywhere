@@ -49,6 +49,23 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ## Project Visualizations
 
+</div>
+
+### Solar Charging Efficiency Heatmap
+
+![Charging Efficiency Heatmap](./images/charging-efficiency-heatmap.png)
+
+*Evaluating full charging capability across multi-panel configurations and device battery capacities.*
+
+### 365-Day Solar Radiation Trend
+
+![Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/live-api-data.png)
+*Demonstrating system precision using location-specific landmarks.*
+
+### Reliability Analysis: ICDF Curve
+
+![ICDF Curve](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/idf-curve.png)
+
 ### Distribution of Solar Panels Needed
 
 ![Panel Distribution](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-1-requirement-model.png)
@@ -56,20 +73,6 @@ The 2026 update transforms the project from a theoretical model into a functiona
 ### Hardware Requirements by Phone Model
 
 ![Requirement Boxplot](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-2-requirement-model.png)
-
-</div>
-
-### Solar Charging Efficiency Heatmap
-![Charging Efficiency Heatmap](./images/charging-efficiency-heatmap.png)
-
-*Evaluating full charging capability across multi-panel configurations and device battery capacities.*
-
-### 365-Day Solar Radiation Trend
-![Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/live-api-data.png)
-*Demonstrating system precision using location-specific landmarks.*
-
-### Reliability Analysis: ICDF Curve
-![ICDF Curve](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/idf-curve.png)
 
 </div>
 
