@@ -26,8 +26,6 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 </div>
 
----
-
 <div align="center">
 </div>
 
