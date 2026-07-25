@@ -47,6 +47,7 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 <div align="center">
 
+
 <div align="center">
 
 # SolarAnywhere: Global Solar Calculation Tool
