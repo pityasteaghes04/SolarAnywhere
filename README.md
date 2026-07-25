@@ -1,6 +1,6 @@
 <div align="center">
 
-#  SolarAnywhere: Global Solar Calculation Tool
+# SolarAnywhere: Global Solar Calculation Tool
 
 </div>
 
@@ -21,12 +21,9 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 <div align="center">
 
-### **Project Presentation (2024-2025)**
+### Project Presentation (2024-2025)
 **Detailed Varied Regions Analysis:** [View SolarAnywhere Presentation (PDF)](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
 
-</div>
-
-<div align="center">
 </div>
 
 ## Hardware Specifications
@@ -48,14 +45,19 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 > **User Guide:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and use the formula: $Wh = (mAh \times 3.85) / 1000$
 
-</div>
-
-<div align="center">
----
-
 <div align="center">
 
 ## Project Visualizations
+
+### Distribution of Solar Panels Needed
+
+![Panel Distribution](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-1-requirement-model.png)
+
+### Hardware Requirements by Phone Model
+
+![Requirement Boxplot](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-2-requirement-model.png)
+
+</div>
 
 ### Solar Charging Efficiency Heatmap
 ![Charging Efficiency Heatmap](./images/charging-efficiency-heatmap.png)
