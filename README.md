@@ -28,6 +28,8 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ---
 
+</div>
+
 ## Hardware Specifications
 * **Location Engine:** Google Maps Geocoding API.
 * **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/).
@@ -46,6 +48,8 @@ The 2026 update transforms the project from a theoretical model into a functiona
 | **iPhone 16** | 3561 | 13.71 | Standard |
 
 > **User Guide:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and use the formula: $Wh = (mAh \times 3.85) / 1000$
+
+</div>
 
 ---
 
