@@ -47,6 +47,11 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ## Project Visualizations
 
+### Charging Efficiency Across Device Models & Weather Conditions
+*Heatmap illustrating device charging efficiency relative to solar irradiance and environmental conditions.*
+
+![Charging Efficiency Heatmap](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/charging-efficiency-heatmap.png)
+
 ### Overall Panel Distribution & Outliers Across Device Models
 *Highlights the distribution of solar panels required to charge each device fully, including extreme weather anomalies and high-irradiance outliers.*
 
