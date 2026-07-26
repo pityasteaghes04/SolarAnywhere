@@ -1,51 +1,47 @@
-<div align="center">
-
 # SolarAnywhere: Global Solar Calculation Tool
 
-</div>
-
 ## Abstract
-SolarAnywhere is a high-precision, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Built on a powerful integration of the **Google Maps API** and **Visual Crossing API**, the system features a seamless location engine that resolves any point on Earth—from entire cities to specific landmarks. 
+SolarAnywhere is a high-precision, global solar calculation tool designed to bridge the gap between renewable energy and accessibility. Powered by the **Google Maps API** and **Visual Crossing API**, the system features a seamless location engine that resolves any point on Earth—from entire cities down to specific landmarks.
 
-To demonstrate its power, the tool can pivot from a broad search like "Seattle, WA" to a high-precision target like the **Space Needle**, fetching hyper-local irradiance data instantly. SolarAnywhere provides reliable, data-driven insights to help users design solar setups that meet their specific daily needs regardless of their environment.
+To demonstrate its power, the tool can pivot from a broad search like *Seattle, WA* to a high-precision target like the *Space Needle*, fetching hyper-local irradiance data instantly. SolarAnywhere provides reliable, data-driven insights to help users design solar setups tailored to their daily energy needs, regardless of environment.
+
+---
 
 ## Project Overview
 The 2026 update transforms the project from a theoretical model into a functional smart tool. By analyzing how solar panel energy output varies by location and device battery capacity, we translate complex solar radiation metrics into practical, consumer-facing insights.
 
-### 2026 Core Features
-* **Smart Search:** Seamlessly resolves locations and landmarks by name (e.g., Space Needle) for instant, hyper-local data.
-* **Global Precision:** Integrated 365 days of live weather data to calculate exact solar needs anywhere on Earth.
-* **Smart Planning:** Uses predictive modeling to forecast battery success rates in varied climate profiles.
+### Core Features
+* **Smart Search:** Resolves locations and landmarks by name for instant, hyper-local data.
+* **Global Precision:** Integrates 365 days of live weather data to calculate exact solar potential anywhere on Earth.
+* **Predictive Planning:** Models battery success rates across varied climate profiles.
 * **Stress Testing:** Rigorously verified for all-weather reliability across extreme irradiance variances.
-* **System Resilience:** Engineered with fallback logic to ensure reliable hardware efficiency insights.
+* **System Resilience:** Built with fallback logic to ensure reliable hardware efficiency insights.
 
-<div align="center">
+> **Project Presentation:** [View SolarAnywhere Presentation (PDF)](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
 
-### Project Presentation (2024-2025)
-**Detailed Varied Regions Analysis:** [View SolarAnywhere Presentation (PDF)](https://github.com/pityasteaghes04/SolarAnywhere/blob/main/SolarAnywhere_Presentation.pdf)
+---
 
-</div>
+## Technical & Hardware Specifications
 
-## Hardware Specifications
-* **Location Engine:** Google Maps Geocoding API.
-* **Weather & Solar Data:** [Visual Crossing Weather API](https://www.visualcrossing.com/).
-* **Battery Profiles:** Technical data for modern mobile devices measured in Watt-hours (Wh).
+### API & Data Stack
+* **Location Engine:** Google Maps Geocoding API
+* **Weather & Solar Data:** Visual Crossing Weather API
+* **Battery Profiles:** Measured in Watt-hours (Wh) for modern mobile devices
 
 ### Hardware Specification Mapping
 *Calculated at 3.85V nominal voltage.*
 
 | Device Model | Capacity (mAh) | Energy (Wh) | Profile Type |
 | :--- | :---: | :---: | :--- |
-| **OnePlus 13** | 6000 | 23.10 | High-Density |
-| **Google Pixel 10 Pro XL** | 5200 | 20.02 | Large Flagship |
-| **Samsung Galaxy S25 Ultra** | 5000 | 19.25 | Ultra-Premium |
-| **iPhone 16 Pro Max** | 4685 | 18.04 | Baseline |
-| **iPhone 16 Pro** | 3582 | 13.79 | Standard Pro |
-| **iPhone 16** | 3561 | 13.71 | Standard |
+| **OnePlus 13** | 6,000 | 23.10 | High-Density |
+| **Google Pixel 10 Pro XL** | 5,200 | 20.02 | Large Flagship |
+| **Samsung Galaxy S25 Ultra** | 5,000 | 19.25 | Ultra-Premium |
+| **iPhone 16 Pro Max** | 4,685 | 18.04 | Baseline |
+| **iPhone 16 Pro** | 3,582 | 13.79 | Standard Pro |
+| **iPhone 16** | 3,561 | 13.71 | Standard |
 
-> **User Guide:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and use the formula: $Wh = (mAh \times 3.85) / 1000$
-
-<div align="center">
+> **User Tip:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and calculate capacity using:  
+> **Watt-hours (Wh) = (Capacity in mAh × 3.85) ÷ 1000**
 
 ## Project Visualizations
 
