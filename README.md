@@ -43,6 +43,8 @@ The 2026 update transforms the project from a theoretical model into a functiona
 > **User Tip:** Don't see your device? Look up your specs on [GSMArena](https://www.gsmarena.com/) and calculate capacity using:  
 > **Watt-hours (Wh) = (Capacity in mAh × 3.85) ÷ 1000**
 
+---
+
 ## Project Visualizations
 
 ### Overall Panel Distribution & Outliers Across Device Models
@@ -50,36 +52,28 @@ The 2026 update transforms the project from a theoretical model into a functiona
 
 ![Panel Distribution](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-1-requirement-model.png)
 
-<br />
-
 ### Standard Hardware Requirements Range by Phone Model
 *Presents the core 0.0 to 3.5 panel requirement range under normal conditions, making it easy to compare average daily hardware needs across flagship devices.*
 
 ![Requirement Boxplot](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/bar-2-requirement-model.png)
-
-<br />
 
 ### Daily Solar Irradiance Profile (Space Needle)
 *Tracks real-time solar radiation variance ($\text{W/m}^2$) over a full year, demonstrating seasonal energy availability shifts from winter lows to summer peaks.*
 
 ![Daily Solar Radiation](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/live-api-data.png)
 
-<br />
-
 ### Solar Reliability Analysis: ICDF Curve (Space Needle)
 *Illustrates the cumulative probability of achieving a full daily charge relative to the number of solar panels deployed across different smartphone battery profiles.*
 
 ![Solar Reliability ICDF](https://raw.githubusercontent.com/pityasteaghes04/SolarAnywhere/main/images/icdf-curve.png)
-
-</div>
 
 ---
 
 ## Technical Skills Demonstrated
 * **Python Engineering:** Pandas, NumPy, Matplotlib, Geopy, Seaborn, REST API integration.
 * **Statistical Modeling:**
-    * **ICDF Curves:** Probability modeling for energy sufficiency.
-    * **Outlier Analysis:** Identifying seasonal variances using Box-and-Whisker plots.
+  * **ICDF Curves:** Probability modeling for energy sufficiency.
+  * **Outlier Analysis:** Identifying seasonal variances using Box-and-Whisker plots.
 * **Systems Design:** Fallback logic for API credentials and data stream continuity.
 * **Project Management:** Git/GitHub version control.
 
